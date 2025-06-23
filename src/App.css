@@ -1,0 +1,115 @@
+body {
+  background: linear-gradient(135deg, #c2e9fb, #a1c4fd); /* Nice gradient */
+  background-color: #ffffff;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.to-do-list {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 500px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+  margin: 40px auto;
+  padding: 30px;
+  background: linear-gradient(145deg, #f0f0f3, #cfcfcf);
+  border-radius: 20px;
+  box-shadow: 8px 8px 20px #bebebe, -8px -8px 20px #ffffff;
+  text-align: center;
+}
+
+.to-do-list h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 2px #ccc;
+}
+
+.to-do-list input[type="text"] {
+  padding: 12px 16px;
+  width: 65%;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  box-shadow: inset 3px 3px 6px #ccc, inset -3px -3px 6px #fff;
+}
+
+.add-buttton {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: 600;
+  box-shadow: 2px 2px 6px #aaa;
+}
+
+.add-buttton:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+li {
+  background: #fff;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.2s;
+}
+
+li:hover {
+  transform: scale(1.01);
+  background-color: #f9f9f9;
+}
+
+li button {
+  margin-left: 8px;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+.move-up-button {
+  background-color: #3498db;
+  color: white;
+}
+
+.move-up-button:hover {
+  background-color: #2980b9;
+}
+
+.move-down-button {
+  background-color: #f39c12;
+  color: white;
+}
+
+.move-down-button:hover {
+  background-color: #d35400;
+}
